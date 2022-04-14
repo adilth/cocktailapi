@@ -1,0 +1,70 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 1em auto;
+  width: 50%;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2em;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+  background-color: rgb(71, 230, 32);
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 1em 1.5em;
+  margin-left: -10px;
+}
+input {
+  padding: 1em 1.5em;
+  border: 1px solid rgb(71, 230, 32);
+  border-radius: 5px 0 0 5px;
+}
+input::placeholder {
+  color: rgb(161, 159, 159);
+}
+.result {
+  /* opacity: 0; */
+  width: min(100% - 2em, 1200px);
+  margin: 2em auto 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0px 4px 21px -12px rgb(0, 0, 0, 0.79);
+}
+.name {
+  margin-bottom: 1em;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: rgb(61, 194, 27);
+}
+ul {
+  list-style: none;
+}
+.ingre p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(61, 194, 27);
+}
+.info {
+  min-width: 75ch;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
